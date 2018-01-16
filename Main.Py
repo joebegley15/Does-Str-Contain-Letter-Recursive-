@@ -20,3 +20,6 @@ def isIn(char, aStr):
             return isIn(char, aStr[middle + 1:])
         else:
             return isIn(char, aStr[:middle])
+char = input('Give Me The Charachter You Want To Find:  ')
+aStr = input('Give Me The String You Want To Find It In:  ')
+isIn(char, aStr)
